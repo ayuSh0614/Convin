@@ -1,0 +1,30 @@
+Project Name
+Cowin - A daily-expenses sharing application
+
+Description
+Cowin is a web application that helps users manage and share daily expenses. It allows users to add expenses and split them based on exact amounts, percentages, or equal shares. The application also provides features for managing user details, validating inputs, and generating downloadable balance sheets.
+
+Table of Contents
+1.Installation
+2.Usage
+3.Features
+4.Technology Stack
+5.Project Structure
+6.Contributing
+7.License
+8.Contact
+
+Installation
+Prerequisites
+Before you begin, ensure you have the following installed on your system:
+
+Node.js (version 12 or higher)
+npm (Node Package Manager)
+MongoDB (for database)
+
+Setup Instructions
+Clone the repository:
+git clone https://github.com/your-username/cowin.git
+cd cowin
+
+npm install
