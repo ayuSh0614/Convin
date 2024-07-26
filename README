@@ -24,7 +24,7 @@ MongoDB (for database)
 
 Setup Instructions
 Clone the repository:
-git clone https://github.com/your-username/convin.git
+git clone https://github.com/ayuSh0614/convin.git
 cd convin
 
 npm install
