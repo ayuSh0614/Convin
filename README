@@ -1,8 +1,8 @@
 Project Name
-Cowin - A daily-expenses sharing application
+convin - A daily-expenses sharing application
 
 Description
-Cowin is a web application that helps users manage and share daily expenses. It allows users to add expenses and split them based on exact amounts, percentages, or equal shares. The application also provides features for managing user details, validating inputs, and generating downloadable balance sheets.
+convin is a web application that helps users manage and share daily expenses. It allows users to add expenses and split them based on exact amounts, percentages, or equal shares. The application also provides features for managing user details, validating inputs, and generating downloadable balance sheets.
 
 Table of Contents
 1.Installation
@@ -24,8 +24,8 @@ MongoDB (for database)
 
 Setup Instructions
 Clone the repository:
-git clone https://github.com/your-username/cowin.git
-cd cowin
+git clone https://github.com/your-username/convin.git
+cd convin
 
 npm install
 
@@ -76,3 +76,16 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 Other: Mongoose, bcryptjs, Joi
+
+
+Contributing
+Contributions are welcome! Please follow the contribution guidelines and adhere to the code of conduct.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contact
+For questions or feedback, please contact:
+
+Your Name - ayusharma051@gmail.com
+Project Link: https://github.com/ayuSh0614/convin
