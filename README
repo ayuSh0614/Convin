@@ -28,3 +28,51 @@ git clone https://github.com/your-username/cowin.git
 cd cowin
 
 npm install
+
+Set up environment variables:
+
+Create a .env file in the root directory and add the following variables:
+MONGO_URI=mongodb://localhost:27017/yourDatabaseName
+JWT_SECRET=your_jwt_secret_key
+PORT=3000
+Start the MongoDB server:
+
+Ensure that your MongoDB server is running. You can start it using:
+npm start
+The application should now be running on http://localhost:3000.
+
+
+Usage
+Register a New User
+To register a new user, make a POST request to /api/register with the following data:
+
+username (string, required)
+email (string, required)
+password (string, required)
+mobileNumber (string, required)
+Login
+To log in, make a POST request to /api/login with:
+
+email (string, required)
+password (string, required)
+Add Expense
+To add a new expense, make a POST request to /api/expenses with:
+
+description (string, required)
+amount (number, required)
+splitMethod (string, required) - Options: 'exact', 'percent', 'equal'
+splitDetails (object, required) - Depends on the split method
+Fetch Balance Sheet
+To fetch the balance sheet, make a GET request to /api/balance-sheet.
+
+Features
+User registration and authentication
+Adding and managing expenses
+Different methods for splitting expenses
+Generating balance sheets
+Downloadable balance sheet reports
+Technology Stack
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JWT (JSON Web Tokens)
+Other: Mongoose, bcryptjs, Joi
